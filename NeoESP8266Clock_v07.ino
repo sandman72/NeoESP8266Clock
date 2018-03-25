@@ -6,8 +6,6 @@
 // frank@vfx.to
 // www.vfx.to
 //
-// License: CC BY-NC 4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
-//
 // Idea from a www.ESP8266.com post by Schufti http://www.esp8266.com/viewtopic.php?f=29&t=5886#p35743
 //
 // Tested with:
@@ -259,7 +257,7 @@ void loop() {
     // Hours, Minutes and Second Pixels
     // Mixing the colors in this tree if positions are identical:
 
-    hz = hz *2;
+    hz = int(hz * 2.5);
 
     // Seconds
     strip.setPixelColor((sz + LED_OFFSET) % 60, 0x7F, 0x00, 0x00);        //  S       -> Red
