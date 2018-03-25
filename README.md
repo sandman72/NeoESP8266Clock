@@ -30,7 +30,9 @@ v0.7 - 25. March 2018 - rewrite for new NTP and simpleDSTadjust lib
 The hardware is pretty simple to build. You'll need:
 
 1 * NodeMCU 1.0 board (or a similar ESP8266 based board)
+
 4 * Adafruit NeoPixel 1/4 Ring 60 WS2812  
+
 1 * 5V 1A Micro-USB power supply 
 
 Solder a complete 60 LED Ring out of the 1/4 parts and connect it to the NodeMCU board:
