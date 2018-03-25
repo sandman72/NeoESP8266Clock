@@ -257,7 +257,7 @@ void loop() {
     // Hours, Minutes and Second Pixels
     // Mixing the colors in this tree if positions are identical:
 
-    hz = int(hz * 2.5);
+    hz = int(hz * 2.5) + int(mz / 20);
 
     // Seconds
     strip.setPixelColor((sz + LED_OFFSET) % 60, 0x7F, 0x00, 0x00);        //  S       -> Red
