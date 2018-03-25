@@ -2,7 +2,9 @@
 ESP8266 based NeoPixel Clock
 
 by Frank Hellmann, Hamburg, Germany, March 2016
+
 frank@vfx.to
+
 www.vfx.to
 
 Idea from a www.ESP8266.com post by Schufti http://www.esp8266.com/viewtopic.php?f=29&t=5886#p35743
