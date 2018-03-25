@@ -1,10 +1,6 @@
 # NeoESP8266Clock
 ESP8266 based NeoPixel Clock
 
----------------------------------------------------
-             NeoESP8266Clock
----------------------------------------------------
-
 by Frank Hellmann, Hamburg, Germany, March 2016
 frank@vfx.to
 www.vfx.to
@@ -13,15 +9,22 @@ Idea from a www.ESP8266.com post by Schufti http://www.esp8266.com/viewtopic.php
 
 Tested with:
 Arduino 1.8.3 IDE
+
 NodeMCU 1.0 Board (ESP12-E)
+
 ESP8266 Version 2.3.0 (Board Manager URL: http://arduino.esp8266.com/stable/package_esp8266com_index.json)
+
 WiFiManager 0.10.0 
 
 History:
 --------
+
 v0.2 - 16. March 2016 - WiFiManager autoconfiguration
+
 v0.5 - 03. April 2016 - added Documentation and Daylight Savings Adjust autoconfiguration
+
 v0.6 - 22. Feb.  2017 - added DNS lookup for NTP Timeserver
+
 v0.7 - 25. March 2018 - rewrite for new NTP and simpleDSTadjust lib
 
 The hardware is pretty simple to build. You'll need:
